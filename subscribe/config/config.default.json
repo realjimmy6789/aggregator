@@ -126,8 +126,8 @@
         ],
         "scripts": [
             {
-                "enable": false,
-                "script": "file#function",
+                "enable": true,
+                "script": "fofa#recall",
                 "params": {
                     "persist": {
                         "fileid": ""
