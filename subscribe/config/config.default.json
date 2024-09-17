@@ -126,18 +126,18 @@
         ],
         "scripts": [
             {
-                "enable": true,
-                "script": "fofa#recall",
+                "enable": false,
+                "script": "file#function",
                 "params": {
-                    "exclude": "",
-                    "check": true,
-                    "maxsize": 100,
-                    "timesleep": 3,
-                    "timeout": 180,
+                    "persist": {
+                        "fileid": ""
+                    },
+                    "any": "xxx",
                     "config": {
-                        "rename": "",
-                        "include": "",
+                        "enable": true,
+                        "liveness": true,
                         "exclude": "",
+                        "rename": "",
                         "push_to": []
                     }
                 }
