@@ -126,8 +126,8 @@
         ],
         "scripts": [
             {
-                "enable": true,
-                "script": "fofa#recall",
+                "enable": false,
+                "script": "file#function",
                 "params": {
                     "persist": {
                         "fileid": ""
@@ -137,8 +137,24 @@
                         "enable": true,
                         "liveness": true,
                         "exclude": "",
-                        "rename": "FOFA",
-                        "push_to": [xxx-clash]
+                        "rename": "",
+                        "push_to": []
+                    }
+                }
+            },
+            {
+                "enable": true,
+                "script": "fofa#recall",
+                "params": {
+                    "exclude": "",
+                    "maxsize": 1000,
+                    "timesleep": 5,
+                    "timeout": 120,
+                    "config": {
+                        "rename": "FOFA-{name}",
+                        "include": "",
+                        "exclude": "",
+                        "push_to": ["xxx-clash", "xxx-singbox"]
                     }
                 }
             }
