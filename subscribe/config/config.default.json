@@ -137,8 +137,8 @@
                         "enable": true,
                         "liveness": true,
                         "exclude": "",
-                        "rename": "",
-                        "push_to": []
+                        "rename": "FOFA",
+                        "push_to": [xxx-clash]
                     }
                 }
             }
