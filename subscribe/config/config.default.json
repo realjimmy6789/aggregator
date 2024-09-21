@@ -126,8 +126,8 @@
         ],
         "scripts": [
             {
-                "enable": false,
-                "script": "file#function",
+                "enable": true,
+                "script": "fofa#recall",
                 "params": {
                     "persist": {
                         "fileid": ""
@@ -142,22 +142,6 @@
                     }
                 }
             },
-            {
-                "enable": true,
-                "script": "fofa#recall",
-                "params": {
-                    "exclude": "",
-                    "maxsize": 1000,
-                    "timesleep": 5,
-                    "timeout": 120,
-                    "config": {
-                        "rename": "FOFA-{name}",
-                        "include": "",
-                        "exclude": "",
-                        "push_to": ["xxx-clash", "xxx-singbox"]
-                    }
-                }
-            }
         ]
     },
     "groups": {
